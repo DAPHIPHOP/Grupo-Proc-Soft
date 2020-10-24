@@ -1,0 +1,3 @@
+CREATE PROCEDURE `SP_A_T_Producto` (`nombre` VARCHAR(50), `descripcion` VARCHAR(50), `precio` FLOAT, `categoria` INT, `imagen` VARCHAR(250))
+INSERT INTO tbl_producto(prod_nombre,prod_descripcion,prod_precio , id_categoria , prod_imagen)
+VALUES (nombre,descripcion,precio, categoria, imagen)
